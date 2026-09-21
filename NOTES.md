@@ -24,6 +24,30 @@
 - Comment fonctionne `@keyframes` : ...
 - Comment Tailwind est chargé : ...
 
+## Concepts avancés découverts
+
+### Accessibilité (a11y)
+- `role="status"` + `aria-live="polite"` sur le paragraphe de greeting
+- Permet aux lecteurs d'écran d'annoncer le "Bonjour !"
+
+### Préférences utilisateur
+- `@media (prefers-reduced-motion: reduce)` → désactive les animations
+- Respecte les utilisateurs sensibles au mouvement
+
+### Tailwind — classes clés
+- `bg-white/5` → blanc à 5% d'opacité
+- `backdrop-blur-xl` → effet verre flouté (glassmorphism)
+- `bg-clip-text text-transparent` → dégradé sur le texte
+
+### JavaScript dynamique
+- `requestAnimationFrame` → attend le prochain repaint
+- `void element.offsetWidth` → force le recalcul (astuce pro)
+- `classList.add('animate-pop')` → ajoute une animation au clic
+
+### Structure
+- HTML + CSS + JS dans un seul fichier (single-file)
+- Pas de "code mort" : tout est utilisé
+
 ## Ce que je n'ai pas compris
 
 
