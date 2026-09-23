@@ -50,5 +50,20 @@
 
 ## Ce que je n'ai pas compris
 
+## Jour 3 — Compteur interactif
 
+### Concept : l'état (state)
+- Un état = une donnée qui change et impacte l'UI
+- Cycle : [État initial] → [Événement] → [État modifié] → [UI mise à jour]
+
+### Implémentation du compteur
+- Variable JS : `let count = 0;`
+- Bouton +1 : `count++; updateDisplay();`
+- Bouton Reset : `count = 0; updateDisplay();`
+- Fonction `updateDisplay()` : met à jour le texte du `<span>`
+
+### Ce que j'ai appris
+- Séparer la logique (état) de l'affichage (DOM)
+- Utiliser `addEventListener` sur plusieurs boutons
+- Le DOM se met à jour à chaque changement d'état
 - ...
